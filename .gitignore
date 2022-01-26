@@ -403,3 +403,4 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/csharp
 
 .idea
+EF2.DB_Lib/connection_to_db.txt
