@@ -18,6 +18,17 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
         <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.13" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\EF2.Model\EF2.Model.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Update="connection_to_db.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
