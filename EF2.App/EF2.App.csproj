@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EF2.DB_Lib\EF2.DB_Lib.csproj" />
+      <ProjectReference Include="..\EF2.Model\EF2.Model.csproj" />
+    </ItemGroup>
+
+</Project>
