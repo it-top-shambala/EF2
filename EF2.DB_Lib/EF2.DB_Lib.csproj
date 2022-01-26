@@ -30,5 +30,15 @@
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\EF2.Model\EF2.Model.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Update="connection_to_db.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
 
 </Project>
